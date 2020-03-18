@@ -12,11 +12,11 @@ Gray: #646464
 White: #ffffff  
 
 ## TODOs
-- [] Ensure categories add up correct
-- [] Add "what is profit first"
-- [] Change percentages
-- [] Save inputs + percentages to local storage
-- [] Add link to book
-- [] FUTURE: Add/remove/change categories
-- [] Add email signup
-- [] Tip button
+- [ ] Ensure categories add up correct
+- [ ] Add "what is profit first"
+- [ ] Change percentages
+- [ ] Save inputs + percentages to local storage
+- [ ] Add link to book
+- [ ] FUTURE: Add/remove/change categories
+- [ ] Add email signup
+- [ ] Tip button
