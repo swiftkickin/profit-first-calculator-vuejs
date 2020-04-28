@@ -13,10 +13,16 @@
           />
         </v-col>
         <v-col>
+          <v-text-field
+            v-for="c in categoriesList"
+            :key="c.index"
+            readonly
+            :label="c.name"
+            v-model="c.value"
+          ></v-text-field>
           <v-btn icon @click="openEditCategories()">
             <v-icon>mdi-cog</v-icon>
           </v-btn>
-          <v-text-field v-for="c in categoriesList" :key="c.index" readonly :label="c.name" v-model="c.value"></v-text-field>
         </v-col>
       </v-row>
     </v-container>
@@ -118,6 +124,8 @@ export default class Calculator extends Vue {
   }
 
   updateCategories() {
+    if (this.income === null) this.income = 0;
+    
     const convertedIncome = parseFloat(this.income.toString());
     if (isNaN(convertedIncome)) this.income = 0;
     else this.income = parseFloat(convertedIncome.toFixed(2));

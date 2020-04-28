@@ -21,3 +21,4 @@ White: #ffffff
 - [X] FUTURE: Add/remove/change categories
 - [ ] Add email signup
 - [ ] Tip button
+- [ ] Adjust for mobile
