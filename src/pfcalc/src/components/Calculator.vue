@@ -137,16 +137,14 @@ export default class Calculator extends Vue {
     });
   }
 
-  @Watch("categoriesList", {
-    deep: true
-  })
-  onCategoriesUpdated() {
-    console.log("updated");
-  }
+  // @Watch("categoriesList", {
+  //   deep: true
+  // })
+  // onCategoriesUpdated() {
+  // }
 
   get isInvalidIncome() {
     const convertedIncome = parseFloat(this.income.toString());
-    console.log("income == " + convertedIncome);
     return isNaN(convertedIncome);
   }
 
