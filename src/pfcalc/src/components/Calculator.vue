@@ -31,7 +31,7 @@
         <v-col>
           <v-card>
             <v-card-title>What is Profit First?</v-card-title>
-            <v-card-text>Insert something about PF here</v-card-text>
+            <v-card-text>Profit First is awesome!</v-card-text>
           </v-card>
         </v-col>
         <v-col></v-col>
